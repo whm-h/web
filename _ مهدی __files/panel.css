@@ -1,0 +1,63 @@
+/* panel */
+.panel, .panelcollapsed 
+{
+	background: #eee;
+	margin: 5px 0;
+	padding: 0px 0px 5px;
+	/* width: 550px; */
+	border: 1px solid #999;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+/* panel heading */
+.panel h2, .panelcollapsed h2 
+{
+	font-size: 15px;
+	font-weight: normal;
+	margin: 0px;
+	padding: 4px;
+	background: #CCC url(../Images/arrow-up.gif) no-repeat 10px;
+	border-bottom: 1px solid #999;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-top: 1px solid #FFF;
+	border-right: 1px solid #FFF;
+	border-left: 1px solid #FFF;
+}
+
+/* panel heading on rollover */
+.panel h2:hover, .panelcollapsed h2:hover { background-color: #A9BCEF; cursor:pointer;}
+
+/* heading of a collapsed panel */
+.panelcollapsed h2 
+{
+	background: #CCC url(../Images/arrow-dn.gif) no-repeat 10px;
+	border-color: #CCC;
+}
+
+/* panel content - do not set borders or paddings */
+.panelcontent 
+{ 
+	background: #EEE; 
+	overflow: hidden;
+	font-family:inherit; 
+}
+
+/* collapsed panel content */
+.panelcollapsed .panelcontent { display: none; }
+
+.panelcontent table
+{ 
+	width: 100%;
+    border-spacing: 0px;
+}
+.panelcontent td
+{ 
+	border-bottom: 1px solid #888;
+	padding: 0 2px;
+}
+.panelcontent td div:not(:last-child)
+{ 
+	border-bottom: 1px solid #888;
+}

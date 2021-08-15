@@ -1,0 +1,362 @@
+/*@font-face {
+  font-family: 'b koodak';
+  src: url('./fonts/BKOODB.eot?#') format('eot'),  /* IE6–8 
+       url('./fonts/BKOODB.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+
+       url('./fonts/BKOODB.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ 
+}
+*/
+	
+/*!!!!!!!!!!! QuickMenu Core CSS [Do Not Modify!] !!!!!!!!!!!!!*/
+.qmclear {font-size:1px;height:0px;width:0px;clear:left;line-height:0px;display:block;}.qmmc {position:relative;}.qmmc a {float:left;display:block;white-space:nowrap;}.qmmc div a {float:none;}.qmmc div {visibility:hidden;position:absolute;}
+
+/*!!!!!!!!!!! QuickMenu Styles [Please Modify!] !!!!!!!!!!!*/
+
+
+
+	/* QuickMenu 0 */
+
+	/*"""""""" (MAIN) Container""""""""*/	
+	#qm0	
+	{	
+		background-color:#2f628d;
+	}
+
+
+	/*"""""""" (MAIN) Items""""""""*/	
+	#qm0 a	
+	{	
+		padding:5px 20px 2px 20px;
+		background-color:#2f628d;
+		color:#ffffff;
+		font-family:iransans,Tahoma,'bmifont';
+		font-size:12px;
+		text-decoration:none;
+		border-width:4px 0px 4px 0px;
+		border-style:solid;
+		border-color:#2f628d;
+	}
+
+
+	/*"""""""" (MAIN) Hover State""""""""*/	
+	#qm0 a:hover	
+	{	
+		text-decoration:underline;
+		background-color:#68a2d4;
+		color:#ffffff;
+	}
+
+
+	/*"""""""" (MAIN) Active State""""""""*/	
+	body #qm0 .qmactive, body #qm0 .qmactive:hover	
+	{	
+		text-decoration:underline;
+	}
+
+
+	/*"""""""" (SUB) Container""""""""*/	
+	#qm0 div	
+	{	
+		padding:5px;
+		margin:0px;
+		background-color:#edf7fc;
+		border-style:none;
+
+	}
+
+
+	/*"""""""" (SUB) Items""""""""*/	
+	#qm0 div a	
+	{	
+		padding:2px 5px 2px 40px;
+		background-color:#edf7fc;
+		color:#000000;
+		border-width:0px;
+		border-style:none;
+	}
+
+
+	/*"""""""" (SUB) Hover State""""""""*/	
+	#qm0 div a:hover	
+	{	
+		text-decoration:underline;
+	}
+
+
+	/*"""""""" (SUB) Active State""""""""*/	
+	body #qm0 div .qmactive, body #qm0 div .qmactive:hover	
+	{	
+		background-color:#D5D9E5;
+		color:#333333;
+		text-decoration:none;
+	}
+	
+	select	
+	{	
+		font-family:iransans;
+		font-size:11px
+	}
+	
+	
+input {
+  font-size: 12px;
+  font-family: iransans,Tahoma, Arial, Helvetica, sans-serif;
+}	
+
+@font-face{
+	font-family:'iransans';
+	font-weight:normal;
+	font-style:normal;
+	src:local('iransans'),url('./fonts/IRANSansWeb.woff') format('woff'), url('./fonts/IRANSansWeb.ttf') format('truetype');
+}
+
+body {
+  font-family: iransans,Tahoma, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}	
+
+
+
+
+A {  FONT-FAMILY: iransans,Tahoma; }
+A:link {  FONT-SIZE: 8pt; COLOR: #2f629b;  TEXT-DECORATION: none }
+A:visited { FONT-SIZE: 8pt; COLOR: #2f629b;  TEXT-DECORATION: none }
+A:hover { COLOR: #ff3300; TEXT-DECORATION: none }
+
+.headbox{padding:3px;FONT-SIZE: 8pt;background-color: #e3e7fd;color:Black;FONT-FAMILY: iransans,Tahoma;FONT-SIZE: 8pt;}
+.box{border: 1px solid #E0E0E0;BACKGROUND-COLOR: #FBFBFB;direction:rtl;text-align:right;color:black;FONT-FAMILY: iransans,Tahoma;FONT-SIZE: 8pt;width:450px}
+.box .top {background-color: #DBE1FD;padding-top:3px;padding-bottom:3px;width:100%;}
+.box .name {width:49%;float:right;FONT-SIZE: 8pt;color:gray;text-align:right;padding-right:2px}
+.box .author {color:black;}
+.box .date {width:49%;float:left;FONT-SIZE: 8pt;color:black;text-align:left;padding-left:2px}
+.box .text {padding:2px;text-align:right;FONT-SIZE: 9pt;width:100%;}
+.box .bot {width:100%;text-align:left;padding-bottom:3px;}
+.box A:link {FONT-SIZE: 8pt; COLOR: #2f629b;  TEXT-DECORATION: none ; FONT-WEIGHT: normal;}
+.box A:visited {FONT-SIZE: 8pt; COLOR: #2f629b; TEXT-DECORATION: none; FONT-WEIGHT: normal; }
+.box A:hover {TEXT-DECORATION: none ;FONT-SIZE: 8pt;COLOR:red; FONT-WEIGHT: normal;}
+
+.blog A:link {FONT-SIZE: 8pt; COLOR: #ffffff;  TEXT-DECORATION: none ; FONT-WEIGHT: normal;}
+.blog A:visited {FONT-SIZE: 8pt; COLOR: #ffffff;  TEXT-DECORATION: none; FONT-WEIGHT: normal; }
+.blog A:hover {TEXT-DECORATION: none ;FONT-SIZE: 8pt;COLOR:#2f629b; FONT-WEIGHT: normal;}
+
+.formbox{border: 1px solid  #E0E0E0;BACKGROUND-COLOR: white;direction:rtl;text-align:right;color:black;FONT-FAMILY: iransans,Tahoma;FONT-SIZE: 9pt;}
+.formbox .head{background-color: #DBE1FD;padding-top:3px;padding-bottom:3px;width:100%;FONT-SIZE: 8pt;}
+.formbox .textbox {border: 1px solid #c0c0c0; FONT-SIZE: 9pt;COLOR: #000000; FONT-FAMILY: Tahoma; HEIGHT: 22px; BACKGROUND-COLOR: #ffffff; width:250px }
+.formbox .textarea {border: 1px solid #c0c0c0; FONT-SIZE: 9pt;COLOR: #000000; FONT-FAMILY: Tahoma; BACKGROUND-COLOR: #ffffff ;HEIGHT: 125px; width:100% }	
+.sbox{text-align:left;POSITION: absolute;display:none;width:138px;height:90px;background-color:#E8EBFD;filter:alpha(opacity=80);-moz-opacity:.80;opacity:.80;}
+
+.Off {border: 1px solid #F3F3F3;cursor:hand;}
+.On  {border-left: 1px solid #FFFFFF; border-right: 1px solid #000000; border-top: 1px solid #FFFFFF; border-bottom: 1px solid #000000;cursor:hand;}	
+
+.hotspot {color:#900; padding-bottom:1px; border-bottom:1px dotted #900; cursor:pointer}
+#tt {position:absolute; display:block; background:url(/Images/tt_left.gif) top left no-repeat}
+#tttop {display:block; height:5px; margin-left:5px; background:url(/Images/tt_top.gif) top right no-repeat; overflow:hidden}
+#ttcont {display:block; padding:2px 12px 3px 7px; margin-left:5px; background:#666; color:#FFF}
+#ttbot {display:block; height:5px; margin-left:5px; background:url(/Images/tt_bottom.gif) top right no-repeat; overflow:hidden}
+
+
+#navbar {font-family:Tahoma; font-size: 11pt;text-align:center;padding: 4px; margin: 4px 0; direction:ltr;line-height: 200%}
+#navbar A:link{font-family:Arial; font-size: 11pt; font-weight: bold; color: #000080; text-decoration: none; border: 1px solid #C0C0C0; background-color: white;padding:2 4 2 4}
+#navbar A:visited{font-family:Arial;font-size: 11pt; font-weight: bold; color: #000080; text-decoration: none; border: 1px solid #C0C0C0; background-color: white;padding:2 4 2 4}
+#navbar A:hover{font-family:Arial;font-size: 11pt; font-weight: bold; color: white; text-decoration: none; border: 1px solid #C0C0C0; background-color: #0000B0;padding:2 4 2 4}
+#navbar SPAN{font-family:Arial;font-size: 11pt; font-weight: bold; color: gray; text-decoration: none; border: 1px solid #C0C0C0;background-color: #F5F5F5;padding:2 4 2 4}
+.btn { BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #ffffff 1px solid; COLOR: #ffffff; BORDER-BOTTOM: #ffffff 1px solid; FONT-FAMILY: iransans,Tahoma; BACKGROUND-COLOR: #ff6600 }
+#schools optGroup { /* Text and background colour, blue on light gray */
+color:#00f;
+background-color:#ddd;
+font-family:iransans,Tahoma;
+}
+.Error
+{
+	color: #ff0000;
+}
+.Button
+{
+	text-align: center;
+	font-size: 9pt;
+	height: 22px;
+	min-height: 22px;
+	max-height: 22px;
+	border: 1px solid #e86f1d;
+	color: #ffffff;	
+	background: #ffffff url('tpl/images/Button.gif') repeat-x center;
+}
+
+TEXTAREA
+{
+	font-family: "B Titr",Tahoma;
+	font-size: 11px;
+	scrollbar-face-color: #f0f0f0;
+	scrollbar-highlight-color: #cccccc;
+	scrollbar-shadow-color: #cccccc;
+	scrollbar-3dlight-color: #dadada;
+	scrollbar-arrow-color: #777777;
+	scrollbar-track-color: #e0e0e0;
+	scrollbar-darkshadow-color: #dadada;
+}
+
+.hiddenbox
+{
+	display:none;
+}
+
+.visiblebox
+{
+	display:block;
+}
+
+.dayleftBox{
+	padding-top: 50px;
+	background-image: url("/Images/daysleft.png");
+	background-repeat: no-repeat;
+	direction: rtl;
+	height: 100px;
+	background-position: left top;
+	width: 120px;
+	text-align: center;
+	float: left;
+}
+.dayleftBox_Title{
+	padding-top: 5px;
+	width:90%;
+	text-align:center;
+	padding-right:3px;
+}
+.daysleft_Counter{
+	font-family:"B Titr";
+	font-size: 3.5em;
+	text-align: center;
+    line-height: 40px;
+	height: 40px;
+	color:rgb(126, 36, 171);
+}
+
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+	border-spacing: 0;
+    border-collapse: separate;
+}
+.table>caption+thead>tr:first-child>td, .table>caption+thead>tr:first-child>th, .table>colgroup+thead>tr:first-child>td, .table>colgroup+thead>tr:first-child>th, .table>thead:first-child>tr:first-child>td, .table>thead:first-child>tr:first-child>th {
+    border-top: 0;
+}
+.table>thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+.table-striped>tbody>tr:nth-of-type(even) {
+    background-color: #fff;
+}
+
+.alternative-grades{
+	display:inline-block;
+}
+.alternative-grades .btn {
+	display: inline-block;
+	padding: 0px 6px;
+	margin-bottom: 0;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+.alternative-grades .btn-success {
+	color: #fff;
+	background-color: #5cb85c;
+	border-color: #4cae4c;
+	margin:0 1px;
+}
+.alternative-grades .btn.focus, .btn:focus, .btn:hover {
+	color: #333;
+	text-decoration: none;
+}
+.alternative-grades .btn-success:hover {
+	color: #fff;
+	background-color: #449d44;
+	border-color: #398439;
+}
+.alternative-grades button, html [type=button], [type=reset], [type=submit] {
+	-webkit-appearance: button;
+}
+
+/* index.php */
+.news-box{
+	border:2px solid #68A2D4;
+	border-radius:5px;
+	box-shadow: 2px 2px 14px 0px #888888;
+	width:100%;
+	direction:rtl;
+}
+.news-box tr:first-of-type{
+	background-color:#68A2D4;
+	color:#ffe153;
+}
+.news-box td{
+	padding:5px;
+}
+
+/*parent ribbon*/
+.card {
+	width: 130px;
+	position: relative;
+	font-size: 0;
+}
+.card .image img {
+	width: 100%;
+}
+.card .ribbon {
+	position: absolute;
+	left: -5px;
+	top: 97px;
+	width: 140px;
+	height: 28px;
+	background: tomato;
+	color: #fff;
+	line-height: 28px;
+	font-size: 12px;
+	text-align: center;
+	letter-spacing: 1px;
+}
+.card .ribbon:before,
+.card .ribbon:after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  border: 2px solid #e02200;
+}
+.card .ribbon:before {
+  top: -5px;
+  left: 0;
+  border-top-color: transparent;
+  border-left-color: transparent;
+}
+.card .ribbon:after {
+  top: 28px;
+  left: 135px;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+}
+/*parent ribbon END*/
